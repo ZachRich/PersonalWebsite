@@ -15,7 +15,7 @@ const Hero = () => {
       <SpaceBackground />
       {/* Background */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-nebula-gradient opacity-15"></div>
+        <div className="absolute inset-0 opacity-15"></div>
         <img
           src={blackBackground}
           alt="Developer workspace"
@@ -37,8 +37,8 @@ const Hero = () => {
           </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            I explore the infinite possibilities of code, crafting stellar applications 
-            and digital experiences that reach beyond the ordinary into the extraordinary.
+            Creating software that makes a difference. I build scalable applications and robust systems that connect
+            people, streamline processes, and deliver exceptional user experiences.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
@@ -54,7 +54,7 @@ const Hero = () => {
               size="xl"
               onClick={() => scrollToSection("contact")}
             >
-              Launch Contact
+              Contact
             </Button>
           </div>
         </div>

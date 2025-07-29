@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="text-center space-y-4">
           <div className="text-2xl font-bold bg-hero-gradient bg-clip-text text-transparent">
-            Portfolio
+            Zach Rich
           </div>
           <p className="text-muted-foreground max-w-md mx-auto">
             Building innovative solutions and sharing knowledge with the developer community.
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div className="pt-6 border-t border-border/50">
             <p className="text-sm text-muted-foreground">
-              © 2024 Your Name. All rights reserved.
+              © 2024 Zachary Rich. All rights reserved.
             </p>
           </div>
         </div>

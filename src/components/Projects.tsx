@@ -90,7 +90,7 @@ const Projects = () => {
         
         <div className="text-center mt-12">
           <Button variant="outline-glow" size="lg">
-            Explore All Missions
+            Explore All Projects
           </Button>
         </div>
       </div>

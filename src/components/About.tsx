@@ -1,41 +1,39 @@
 const About = () => {
   const skills = [
-    { category: "Frontend Galaxies", items: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js"] },
-    { category: "Backend Cosmos", items: ["Node.js", "Python", "PostgreSQL", "MongoDB", "Express"] },
-    { category: "Space Tools", items: ["Git", "Docker", "AWS", "Vercel", "Figma"] },
+    { category: "Frontend", items: ["React", "TypeScript", "Next.js", "Tailwind CSS"] },
+    { category: "Backend", items: ["Java", "Spring", "Python", "SQL"] },
+    { category: "Tools", items: ["Git", "Docker", "Redis", "ElasticSearch", "RabbitMQ",
+        "Jenkins", "FFMPEG"] },
   ];
 
   return (
-    <section id="about" className="py-20 bg-secondary/30">
+    <section id="about" className="py-20">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 cosmic-text">
-            About <span className="bg-hero-gradient bg-clip-text text-transparent">This Space Explorer</span>
+            About <span className="bg-hero-gradient bg-clip-text text-transparent">Me</span>
           </h2>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a cosmic code navigator with over 5 years of experience exploring the digital universe. 
-                I transform complex algorithms into elegant solutions, bridging the gap between imagination 
-                and reality through the power of code.
-              </p>
-              
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                When I'm not launching new applications into the digital cosmos, you can find me 
-                charting new technological territories, contributing to open source galaxies, 
-                or documenting my interstellar coding adventures.
+                I'm Zachary Rich, a software engineer passionate about creating solutions that solve real-world problems.
+                Currently, I'm building impactful software at World Travel Holdings, where I develop APIs and front-end
+                systems that support thousands of travel agents and hundreds of websites, connecting people to great travel experiences at scale.
+                Previously, I spent nearly two years at Retrieve Technologies, where I progressed from a Junior
+                Developer to a mid-level Developer. During my time there, I played a crucial role in developing key features
+                including knowledge assessment tools and FFMPEG-based video presentation generation systems. I specialize in Java
+                development, API design, databases, and testing, and what drives me most is the continuous learning aspect
+                of this field – there's always a new technology to explore or a better way to solve
+                a problem.
               </p>
 
               <div className="flex flex-wrap gap-2 mt-6">
-                <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm cosmic-text">
-                  Full Stack Astronaut
-                </span>
+{/*                <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm cosmic-text">
+
+                </span>*/}
                 <span className="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm cosmic-text">
-                  UI/UX Space Designer
-                </span>
-                <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm cosmic-text">
-                  Open Source Explorer
+                  Full Stack Developer
                 </span>
               </div>
             </div>

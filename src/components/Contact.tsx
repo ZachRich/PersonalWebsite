@@ -27,8 +27,8 @@ const Contact = () => {
                   <span className="text-primary">📧</span>
                 </div>
                 <div>
-                  <p className="font-medium cosmic-text">Cosmic Mail</p>
-                  <p className="text-muted-foreground">your.email@cosmos.galaxy</p>
+                  <p className="font-medium cosmic-text">E-Mail</p>
+                  <p className="text-muted-foreground">ZachRichDev@gmail.com</p>
                 </div>
               </div>
               
@@ -37,8 +37,8 @@ const Contact = () => {
                   <span className="text-primary">💼</span>
                 </div>
                 <div>
-                  <p className="font-medium cosmic-text">Space Network</p>
-                  <p className="text-muted-foreground">linkedin.com/in/space-explorer</p>
+                  <p className="font-medium cosmic-text">Networking</p>
+                  <p className="text-muted-foreground">linkedin.com/in/zachary-rich</p>
                 </div>
               </div>
               
@@ -47,8 +47,8 @@ const Contact = () => {
                   <span className="text-primary">💻</span>
                 </div>
                 <div>
-                  <p className="font-medium cosmic-text">Code Repository</p>
-                  <p className="text-muted-foreground">github.com/cosmic-coder</p>
+                  <p className="font-medium cosmic-text">GitHub</p>
+                  <p className="text-muted-foreground">github.com/ZachRich</p>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ const Contact = () => {
               </div>
               <Input placeholder="Email Address" type="email" />
               <Input placeholder="Subject" />
-              <Textarea placeholder="Your cosmic message..." className="min-h-[120px]" />
+              <Textarea placeholder="Your message..." className="min-h-[120px]" />
               <Button variant="hero" className="w-full">
                 Launch Message
               </Button>

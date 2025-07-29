@@ -8,7 +8,7 @@ const Contact = () => {
     <section id="contact" className="py-20">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 cosmic-text">
-          Establish <span className="bg-hero-gradient bg-clip-text text-transparent">Contact</span>
+          Get in <span className="bg-hero-gradient bg-clip-text text-transparent">Touch</span>
         </h2>
         
         <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">

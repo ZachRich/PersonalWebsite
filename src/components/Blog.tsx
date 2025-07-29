@@ -4,21 +4,21 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const Blog = () => {
   const blogPosts = [
     {
-      title: "Navigating React Nebulae: Advanced Component Architectures",
+      title: "Navigating React: Advanced Component Architectures",
       excerpt: "Explore the cosmic patterns for building scalable React applications that can withstand the gravitational pull of growing requirements and interstellar team dynamics.",
       date: "Dec 15, 2024",
       readTime: "8 min read",
       tags: ["React", "Space Architecture", "Cosmic Patterns"],
     },
     {
-      title: "CSS Constellations: Modern Styling Across the Digital Galaxy",
+      title: "CSS: Modern Styling ",
       excerpt: "Journey through the latest CSS technologies and discover how to create stellar user experiences that shine brighter than distant stars.",
       date: "Dec 10, 2024",
       readTime: "6 min read",
       tags: ["CSS", "Frontend", "Stellar Design"],
     },
     {
-      title: "TypeScript Spacecraft: Building Type-Safe Missions to Production",
+      title: "TypeScript: Building Type-Safe Missions to Production",
       excerpt: "Launch your code with confidence using advanced TypeScript techniques that ensure your applications survive the harsh environment of production space.",
       date: "Dec 5, 2024",
       readTime: "10 min read",
@@ -73,7 +73,7 @@ const Blog = () => {
         
         <div className="text-center mt-12">
           <Button variant="outline-glow" size="lg">
-            Explore All Chronicles
+            Explore All Posts
           </Button>
         </div>
       </div>

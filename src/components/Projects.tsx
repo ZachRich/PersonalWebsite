@@ -7,15 +7,15 @@ import project3 from "@/assets/project-3.jpg";
 const Projects = () => {
   const projects = [
     {
-      title: "Galactic E-Commerce Hub",
-      description: "An interstellar marketplace platform built with React, Node.js, and PostgreSQL. Features quantum payment processing, AI-powered recommendations, and real-time inventory across multiple star systems.",
+      title: "E-Commerce Hub",
+      description: "A marketplace platform built with React, Node.js, and PostgreSQL. Features quantum payment processing, AI-powered recommendations, and real-time inventory across multiple star systems.",
       image: project1,
       tech: ["React", "Node.js", "PostgreSQL", "AI Integration"],
       github: "#",
       live: "#",
     },
     {
-      title: "Cosmic Task Orchestrator",
+      title: "Task Orchestrator",
       description: "A mission control center for managing space operations with real-time updates, holographic displays, and team collaboration across different galaxies and time zones.",
       image: project2,
       tech: ["Next.js", "TypeScript", "Prisma", "WebRTC"],
@@ -23,7 +23,7 @@ const Projects = () => {
       live: "#",
     },
     {
-      title: "Stellar Analytics Command",
+      title: "Analytics Command",
       description: "A comprehensive space intelligence dashboard for analyzing cosmic data, tracking asteroid movements, and generating predictive models for space exploration missions.",
       image: project3,
       tech: ["Vue.js", "Python", "MongoDB", "Machine Learning"],

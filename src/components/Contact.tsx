@@ -14,10 +14,9 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
           <div className="space-y-6">
             <div>
-              <h3 className="text-2xl font-semibold mb-4 cosmic-text">Let's navigate the cosmos together</h3>
+              <h3 className="text-2xl font-semibold mb-4 cosmic-text">Let's build something</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Ready to embark on an interstellar coding journey? Whether you have a mission to Mars 
-                or just want to exchange cosmic coordinates, I'm always excited to connect with fellow space explorers!
+
               </p>
             </div>
             
